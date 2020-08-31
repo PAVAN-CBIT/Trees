@@ -54,7 +54,7 @@ class BinaryTree
         tree.root.left.right.left.right = new Node(8);
         tree.root.left.right.left.right.left = new Node(9);
         tree.root.left.right.left.right.right = new Node(10);
-        System.out.println("Inorder printing");
+        System.out.println("postorder printing");
         tree.printin();
         
     }
